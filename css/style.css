@@ -7,23 +7,25 @@ body {
 }
 header {
     background-color: #EBEBEB;
-    padding: 5px;
+    padding: 0px;
 }
 header ul {
     float: right;
     color: black;
+    text-align: right;
 }
 header li {
-    display: inline-block;
-    padding: 0px 5px;
+    display: center;
+    padding: 0px 15px;
+    text-align: right;
 }
 .logo {
     text-align: center;
-    width: 23%;
-    padding: 1%;
+    width: 20%;
+    padding: 2%;
 }
 nav {
-    width: 73%;
+    width: 65%;
     padding: 1%;
 }
   .heroImg {
@@ -37,6 +39,11 @@ nav {
     padding: 50px;
     background-color: #FFFFFF;
     text-align: center;
+    float: left;
+  }
+  .aboutText {
+    float: right;
+    text-align: right; 
   }
   button {
     padding: 15px;
@@ -49,6 +56,7 @@ nav {
     background-color: #373738;
     padding: 5px;
     color: white;
+    text-align: center;
   }
   footer ul {
     list-style: none;
@@ -68,12 +76,12 @@ nav {
 .flexContainer {
     display: flex;
     padding: 60px 30px;
-    flex-direction: row;
+    flex-direction: column;
 }
 .flexContainer div {
     width: 1fr;
     padding: 10px;
-    flex-direction: row;
+    flex-direction: column;
   }
   .skillImg {
     width: 200px;
